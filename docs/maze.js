@@ -150,7 +150,7 @@ class Maze{
 
 const column = 20,
       row = 20;
-var canvas = document.getElementById("mazecan");
+var canvas = document.getElementById("maze");
 var maze = new Maze(column, row, canvas);
 
 maze.generate();
